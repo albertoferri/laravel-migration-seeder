@@ -3,7 +3,7 @@
 @section('header')
 
 <section>
-ciao
+    
 {{-- contenuto --}}
 
 </section>
