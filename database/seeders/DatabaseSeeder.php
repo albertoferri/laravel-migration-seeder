@@ -18,5 +18,10 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        // dobbiamo chiamare qui il seeder che abbiamo appena creato
+        $this->call([
+            TrainSeeder::class,
+        ]);
     }
 }
